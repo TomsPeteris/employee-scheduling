@@ -10,6 +10,7 @@ import ai.timefold.solver.core.config.constructionheuristic.ConstructionHeuristi
 import ai.timefold.solver.core.config.constructionheuristic.ConstructionHeuristicType;
 import ai.timefold.solver.core.config.localsearch.LocalSearchPhaseConfig;
 import ai.timefold.solver.core.config.localsearch.LocalSearchType;
+import ai.timefold.solver.core.config.localsearch.decider.acceptor.LocalSearchAcceptorConfig;
 import ai.timefold.solver.core.config.solver.SolverConfig;
 import ai.timefold.solver.core.config.solver.SolverManagerConfig;
 import jakarta.inject.Inject;
@@ -78,6 +79,14 @@ public class EmployeeScheduleResource {
             case "LATE_ACCEPTANCE":
                 localSearchPhaseConfig.setLocalSearchType(LocalSearchType.LATE_ACCEPTANCE);
                 break;
+            case "SIMULATED_ANNEALING":
+                LocalSearchAcceptorConfig config = new LocalSearchAcceptorConfig();
+                config.setSimulatedAnnealingStartingTemperature("2hard/100soft");
+                localSearchPhaseConfig.setAcceptorConfig(config);
+                break;
+            case "GREAT_DELUGE":
+                localSearchPhaseConfig.setLocalSearchType(LocalSearchType.GREAT_DELUGE);
+                break;
             default:
                 localSearchPhaseConfig.setLocalSearchType(LocalSearchType.HILL_CLIMBING);
         }
@@ -138,16 +147,6 @@ public class EmployeeScheduleResource {
         solverManager.terminateEarly(jobId);
         return getEmployeeSchedule(jobId);
     }
-//
-//    @GET
-//    @Produces(MediaType.APPLICATION_JSON)
-//    @Path("{jobId}/status")
-//    public EmployeeSchedule getStatus(
-//            @Parameter(description = "The job ID returned by the POST method.") @PathParam("jobId") String jobId) {
-//        EmployeeSchedule schedule = getEmployeeScheduleAndCheckForExceptions(jobId);
-//        SolverStatus solverStatus = solverManager.getSolverStatus(jobId);
-//        return new EmployeeSchedule(schedule.getScore(), solverStatus);
-//    }
 
     private SolverManager<EmployeeSchedule, String> overrideSolverManager(SolverFactory<EmployeeSchedule> solverFactory) {
         SolverManagerConfig solverManagerConfig = new SolverManagerConfig();

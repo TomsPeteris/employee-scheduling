@@ -18,7 +18,7 @@
             <!-- Configure the optimization algorithms (optional) -->
             <termination>
                 <secondsSpentLimit>120</secondsSpentLimit>
-                <unimprovedSecondsSpentLimit>20</unimprovedSecondsSpentLimit>
+                <unimprovedSecondsSpentLimit>5</unimprovedSecondsSpentLimit>
             </termination>
 
             <constructionHeuristic>
@@ -43,6 +43,24 @@
         <solver>
             <localSearch>
             <localSearchType>TABU_SEARCH</localSearchType>
+            </localSearch>
+        </solver>
+    </solverBenchmark>
+    <solverBenchmark>
+        <name>Simulated Annealing</name>
+        <solver>
+            <localSearch>
+                <acceptor>
+                    <simulatedAnnealingStartingTemperature>2hard/100soft</simulatedAnnealingStartingTemperature>
+                </acceptor>
+            </localSearch>
+        </solver>
+    </solverBenchmark>
+    <solverBenchmark>
+        <name>Great Deluge</name>
+        <solver>
+            <localSearch>
+                <localSearchType>GREAT_DELUGE</localSearchType>
             </localSearch>
         </solver>
     </solverBenchmark>
