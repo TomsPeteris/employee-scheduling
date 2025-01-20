@@ -1,0 +1,980 @@
+{
+  "employees": [
+    {
+      "name": "Elsa Green",
+      "role": "Assistant",
+      "unavailableDates": [
+        "2025-01-21",
+        "2025-01-24",
+        "2025-01-27",
+        "2025-02-05",
+        "2025-02-13"
+      ],
+      "preferredHolidays": [
+        "2025-02-07",
+        "2025-02-08"
+      ],
+      "maxWorkingHoursPerWeek": 40
+    },
+    {
+      "name": "Elsa Li",
+      "role": "Specialist",
+      "unavailableDates": [
+        "2025-01-23",
+        "2025-01-25",
+        "2025-01-28",
+        "2025-01-29",
+        "2025-02-06",
+        "2025-02-07",
+        "2025-02-14"
+      ],
+      "preferredHolidays": [
+        "2025-02-01"
+      ],
+      "maxWorkingHoursPerWeek": 40
+    },
+    {
+      "name": "Elsa Watt",
+      "role": "Specialist",
+      "unavailableDates": [
+        "2025-01-30",
+        "2025-02-01",
+        "2025-02-04",
+        "2025-02-14",
+        "2025-02-16"
+      ],
+      "preferredHolidays": [
+        "2025-02-10",
+        "2025-01-31"
+      ],
+      "maxWorkingHoursPerWeek": 40
+    },
+    {
+      "name": "Amy Smith",
+      "role": "Assistant",
+      "unavailableDates": [
+        "2025-01-20",
+        "2025-01-31",
+        "2025-02-17",
+        "2025-02-18"
+      ],
+      "preferredHolidays": [
+        "2025-01-23",
+        "2025-02-10"
+      ],
+      "maxWorkingHoursPerWeek": 40
+    },
+    {
+      "name": "Hugo King",
+      "role": "Specialist",
+      "unavailableDates": [
+        "2025-01-28",
+        "2025-02-12",
+        "2025-02-13"
+      ],
+      "preferredHolidays": [
+        "2025-01-31"
+      ],
+      "maxWorkingHoursPerWeek": 40
+    },
+    {
+      "name": "Amy King",
+      "role": "Assistant",
+      "unavailableDates": [
+        "2025-02-02",
+        "2025-02-11",
+        "2025-02-18"
+      ],
+      "preferredHolidays": [
+        "2025-01-23",
+        "2025-01-29"
+      ],
+      "maxWorkingHoursPerWeek": 40
+    },
+    {
+      "name": "Dan Poe",
+      "role": "Assistant",
+      "unavailableDates": [
+        "2025-01-23",
+        "2025-01-26",
+        "2025-02-09",
+        "2025-02-12"
+      ],
+      "preferredHolidays": [
+        "2025-01-27"
+      ],
+      "maxWorkingHoursPerWeek": 40
+    },
+    {
+      "name": "Hugo Watt",
+      "role": "Specialist",
+      "unavailableDates": [
+        "2025-01-22",
+        "2025-02-03",
+        "2025-02-08",
+        "2025-02-10"
+      ],
+      "preferredHolidays": [
+        "2025-02-14"
+      ],
+      "maxWorkingHoursPerWeek": 40
+    },
+    {
+      "name": "Carl King",
+      "role": "Assistant",
+      "unavailableDates": [
+        "2025-02-01",
+        "2025-02-06",
+        "2025-02-15"
+      ],
+      "preferredHolidays": [
+        "2025-01-23"
+      ],
+      "maxWorkingHoursPerWeek": 40
+    }
+  ],
+  "shifts": [
+    {
+      "id": "0",
+      "start": "2025-01-20T10:00:00",
+      "end": "2025-01-20T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "1",
+      "start": "2025-01-20T10:00:00",
+      "end": "2025-01-20T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "2",
+      "start": "2025-01-20T14:00:00",
+      "end": "2025-01-20T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "3",
+      "start": "2025-01-20T14:00:00",
+      "end": "2025-01-20T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "4",
+      "start": "2025-01-21T10:00:00",
+      "end": "2025-01-21T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "5",
+      "start": "2025-01-21T10:00:00",
+      "end": "2025-01-21T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "6",
+      "start": "2025-01-21T14:00:00",
+      "end": "2025-01-21T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "7",
+      "start": "2025-01-21T14:00:00",
+      "end": "2025-01-21T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "8",
+      "start": "2025-01-22T10:00:00",
+      "end": "2025-01-22T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "9",
+      "start": "2025-01-22T10:00:00",
+      "end": "2025-01-22T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "10",
+      "start": "2025-01-22T14:00:00",
+      "end": "2025-01-22T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "11",
+      "start": "2025-01-22T14:00:00",
+      "end": "2025-01-22T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "12",
+      "start": "2025-01-23T10:00:00",
+      "end": "2025-01-23T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "13",
+      "start": "2025-01-23T10:00:00",
+      "end": "2025-01-23T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "14",
+      "start": "2025-01-23T14:00:00",
+      "end": "2025-01-23T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "15",
+      "start": "2025-01-23T14:00:00",
+      "end": "2025-01-23T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "16",
+      "start": "2025-01-24T10:00:00",
+      "end": "2025-01-24T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "17",
+      "start": "2025-01-24T10:00:00",
+      "end": "2025-01-24T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "18",
+      "start": "2025-01-24T14:00:00",
+      "end": "2025-01-24T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "19",
+      "start": "2025-01-24T14:00:00",
+      "end": "2025-01-24T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "20",
+      "start": "2025-01-25T10:00:00",
+      "end": "2025-01-25T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "21",
+      "start": "2025-01-25T10:00:00",
+      "end": "2025-01-25T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "22",
+      "start": "2025-01-25T14:00:00",
+      "end": "2025-01-25T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "23",
+      "start": "2025-01-25T14:00:00",
+      "end": "2025-01-25T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "24",
+      "start": "2025-01-26T10:00:00",
+      "end": "2025-01-26T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "25",
+      "start": "2025-01-26T10:00:00",
+      "end": "2025-01-26T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "26",
+      "start": "2025-01-26T14:00:00",
+      "end": "2025-01-26T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "27",
+      "start": "2025-01-26T14:00:00",
+      "end": "2025-01-26T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "28",
+      "start": "2025-01-27T10:00:00",
+      "end": "2025-01-27T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "29",
+      "start": "2025-01-27T10:00:00",
+      "end": "2025-01-27T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "30",
+      "start": "2025-01-27T14:00:00",
+      "end": "2025-01-27T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "31",
+      "start": "2025-01-27T14:00:00",
+      "end": "2025-01-27T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "32",
+      "start": "2025-01-28T10:00:00",
+      "end": "2025-01-28T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "33",
+      "start": "2025-01-28T10:00:00",
+      "end": "2025-01-28T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "34",
+      "start": "2025-01-28T14:00:00",
+      "end": "2025-01-28T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "35",
+      "start": "2025-01-28T14:00:00",
+      "end": "2025-01-28T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "36",
+      "start": "2025-01-29T10:00:00",
+      "end": "2025-01-29T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "37",
+      "start": "2025-01-29T10:00:00",
+      "end": "2025-01-29T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "38",
+      "start": "2025-01-29T14:00:00",
+      "end": "2025-01-29T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "39",
+      "start": "2025-01-29T14:00:00",
+      "end": "2025-01-29T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "40",
+      "start": "2025-01-30T10:00:00",
+      "end": "2025-01-30T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "41",
+      "start": "2025-01-30T10:00:00",
+      "end": "2025-01-30T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "42",
+      "start": "2025-01-30T14:00:00",
+      "end": "2025-01-30T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "43",
+      "start": "2025-01-30T14:00:00",
+      "end": "2025-01-30T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "44",
+      "start": "2025-01-31T10:00:00",
+      "end": "2025-01-31T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "45",
+      "start": "2025-01-31T10:00:00",
+      "end": "2025-01-31T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "46",
+      "start": "2025-01-31T14:00:00",
+      "end": "2025-01-31T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "47",
+      "start": "2025-01-31T14:00:00",
+      "end": "2025-01-31T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "48",
+      "start": "2025-02-01T10:00:00",
+      "end": "2025-02-01T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "49",
+      "start": "2025-02-01T10:00:00",
+      "end": "2025-02-01T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "50",
+      "start": "2025-02-01T14:00:00",
+      "end": "2025-02-01T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "51",
+      "start": "2025-02-01T14:00:00",
+      "end": "2025-02-01T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "52",
+      "start": "2025-02-02T10:00:00",
+      "end": "2025-02-02T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "53",
+      "start": "2025-02-02T10:00:00",
+      "end": "2025-02-02T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "54",
+      "start": "2025-02-02T14:00:00",
+      "end": "2025-02-02T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "55",
+      "start": "2025-02-02T14:00:00",
+      "end": "2025-02-02T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "56",
+      "start": "2025-02-03T10:00:00",
+      "end": "2025-02-03T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "57",
+      "start": "2025-02-03T10:00:00",
+      "end": "2025-02-03T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "58",
+      "start": "2025-02-03T14:00:00",
+      "end": "2025-02-03T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "59",
+      "start": "2025-02-03T14:00:00",
+      "end": "2025-02-03T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "60",
+      "start": "2025-02-04T10:00:00",
+      "end": "2025-02-04T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "61",
+      "start": "2025-02-04T10:00:00",
+      "end": "2025-02-04T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "62",
+      "start": "2025-02-04T14:00:00",
+      "end": "2025-02-04T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "63",
+      "start": "2025-02-04T14:00:00",
+      "end": "2025-02-04T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "64",
+      "start": "2025-02-05T10:00:00",
+      "end": "2025-02-05T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "65",
+      "start": "2025-02-05T10:00:00",
+      "end": "2025-02-05T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "66",
+      "start": "2025-02-05T14:00:00",
+      "end": "2025-02-05T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "67",
+      "start": "2025-02-05T14:00:00",
+      "end": "2025-02-05T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "68",
+      "start": "2025-02-06T10:00:00",
+      "end": "2025-02-06T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "69",
+      "start": "2025-02-06T10:00:00",
+      "end": "2025-02-06T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "70",
+      "start": "2025-02-06T14:00:00",
+      "end": "2025-02-06T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "71",
+      "start": "2025-02-06T14:00:00",
+      "end": "2025-02-06T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "72",
+      "start": "2025-02-07T10:00:00",
+      "end": "2025-02-07T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "73",
+      "start": "2025-02-07T10:00:00",
+      "end": "2025-02-07T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "74",
+      "start": "2025-02-07T14:00:00",
+      "end": "2025-02-07T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "75",
+      "start": "2025-02-07T14:00:00",
+      "end": "2025-02-07T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "76",
+      "start": "2025-02-08T10:00:00",
+      "end": "2025-02-08T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "77",
+      "start": "2025-02-08T10:00:00",
+      "end": "2025-02-08T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "78",
+      "start": "2025-02-08T14:00:00",
+      "end": "2025-02-08T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "79",
+      "start": "2025-02-08T14:00:00",
+      "end": "2025-02-08T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "80",
+      "start": "2025-02-09T10:00:00",
+      "end": "2025-02-09T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "81",
+      "start": "2025-02-09T10:00:00",
+      "end": "2025-02-09T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "82",
+      "start": "2025-02-09T14:00:00",
+      "end": "2025-02-09T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "83",
+      "start": "2025-02-09T14:00:00",
+      "end": "2025-02-09T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "84",
+      "start": "2025-02-10T10:00:00",
+      "end": "2025-02-10T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "85",
+      "start": "2025-02-10T10:00:00",
+      "end": "2025-02-10T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "86",
+      "start": "2025-02-10T14:00:00",
+      "end": "2025-02-10T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "87",
+      "start": "2025-02-10T14:00:00",
+      "end": "2025-02-10T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "88",
+      "start": "2025-02-11T10:00:00",
+      "end": "2025-02-11T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "89",
+      "start": "2025-02-11T10:00:00",
+      "end": "2025-02-11T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "90",
+      "start": "2025-02-11T14:00:00",
+      "end": "2025-02-11T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "91",
+      "start": "2025-02-11T14:00:00",
+      "end": "2025-02-11T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "92",
+      "start": "2025-02-12T10:00:00",
+      "end": "2025-02-12T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "93",
+      "start": "2025-02-12T10:00:00",
+      "end": "2025-02-12T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "94",
+      "start": "2025-02-12T14:00:00",
+      "end": "2025-02-12T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "95",
+      "start": "2025-02-12T14:00:00",
+      "end": "2025-02-12T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "96",
+      "start": "2025-02-13T10:00:00",
+      "end": "2025-02-13T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "97",
+      "start": "2025-02-13T10:00:00",
+      "end": "2025-02-13T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "98",
+      "start": "2025-02-13T14:00:00",
+      "end": "2025-02-13T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "99",
+      "start": "2025-02-13T14:00:00",
+      "end": "2025-02-13T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "100",
+      "start": "2025-02-14T10:00:00",
+      "end": "2025-02-14T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "101",
+      "start": "2025-02-14T10:00:00",
+      "end": "2025-02-14T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "102",
+      "start": "2025-02-14T14:00:00",
+      "end": "2025-02-14T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "103",
+      "start": "2025-02-14T14:00:00",
+      "end": "2025-02-14T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "104",
+      "start": "2025-02-15T10:00:00",
+      "end": "2025-02-15T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "105",
+      "start": "2025-02-15T10:00:00",
+      "end": "2025-02-15T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "106",
+      "start": "2025-02-15T14:00:00",
+      "end": "2025-02-15T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "107",
+      "start": "2025-02-15T14:00:00",
+      "end": "2025-02-15T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "108",
+      "start": "2025-02-16T10:00:00",
+      "end": "2025-02-16T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "109",
+      "start": "2025-02-16T10:00:00",
+      "end": "2025-02-16T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "110",
+      "start": "2025-02-16T14:00:00",
+      "end": "2025-02-16T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "111",
+      "start": "2025-02-16T14:00:00",
+      "end": "2025-02-16T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "112",
+      "start": "2025-02-17T10:00:00",
+      "end": "2025-02-17T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "113",
+      "start": "2025-02-17T10:00:00",
+      "end": "2025-02-17T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "114",
+      "start": "2025-02-17T14:00:00",
+      "end": "2025-02-17T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "115",
+      "start": "2025-02-17T14:00:00",
+      "end": "2025-02-17T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "116",
+      "start": "2025-02-18T10:00:00",
+      "end": "2025-02-18T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "117",
+      "start": "2025-02-18T10:00:00",
+      "end": "2025-02-18T18:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "118",
+      "start": "2025-02-18T14:00:00",
+      "end": "2025-02-18T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    },
+    {
+      "id": "119",
+      "start": "2025-02-18T14:00:00",
+      "end": "2025-02-18T22:00:00",
+      "requiredRole": "Specialist",
+      "employee": null
+    }
+  ],
+  "score": null,
+  "solverStatus": null
+}

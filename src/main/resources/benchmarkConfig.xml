@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plannerBenchmark xmlns="https://timefold.ai/xsd/benchmark" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="https://timefold.ai/xsd/benchmark https://timefold.ai/xsd/benchmark/benchmark.xsd">
+    <benchmarkDirectory>benchmarkReports</benchmarkDirectory>
+
+    <inheritedSolverBenchmark>
+        <solver>
+            <environmentMode>REPRODUCIBLE</environmentMode>
+            <!-- Define the model -->
+            <solutionClass>org.acme.employeescheduling.domain.EmployeeSchedule</solutionClass>
+            <entityClass>org.acme.employeescheduling.domain.Shift</entityClass>
+
+            <!-- Define the score function -->
+            <scoreDirectorFactory>
+                <constraintProviderClass>org.acme.employeescheduling.solver.EmployeeSchedulingConstraintProvider</constraintProviderClass>
+            </scoreDirectorFactory>
+
+            <!-- Configure the optimization algorithms (optional) -->
+            <termination>
+                <secondsSpentLimit>120</secondsSpentLimit>
+                <unimprovedSecondsSpentLimit>20</unimprovedSecondsSpentLimit>
+            </termination>
+
+            <constructionHeuristic>
+                <constructionHeuristicType>FIRST_FIT</constructionHeuristicType>
+            </constructionHeuristic>
+        </solver>
+        <problemBenchmarks>
+            <solutionFileIOClass>org.acme.employeescheduling.domain.EmployeeScheduleJsonIO</solutionFileIOClass>
+            <writeOutputSolutionEnabled>true</writeOutputSolutionEnabled>
+            <inputSolutionFile>data/small.json</inputSolutionFile>
+            <inputSolutionFile>data/medium.json</inputSolutionFile>
+            <inputSolutionFile>data/large.json</inputSolutionFile>
+            <inputSolutionFile>data/huge.json</inputSolutionFile>
+            <singleStatisticType>CONSTRAINT_MATCH_TOTAL_BEST_SCORE</singleStatisticType>
+            <singleStatisticType>PICKED_MOVE_TYPE_BEST_SCORE_DIFF</singleStatisticType>
+            <singleStatisticType>CONSTRAINT_MATCH_TOTAL_STEP_SCORE</singleStatisticType>
+        </problemBenchmarks>
+    </inheritedSolverBenchmark>
+
+    <solverBenchmark>
+        <name>Tabu Search</name>
+        <solver>
+            <localSearch>
+            <localSearchType>TABU_SEARCH</localSearchType>
+            </localSearch>
+        </solver>
+    </solverBenchmark>
+    <solverBenchmark>
+        <name>Hill Climbing</name>
+        <solver>
+            <localSearch>
+                <localSearchType>HILL_CLIMBING</localSearchType>
+            </localSearch>
+        </solver>
+    </solverBenchmark>
+    <solverBenchmark>
+        <name>Late Acceptance</name>
+        <solver>
+            <localSearch>
+            <localSearchType>LATE_ACCEPTANCE</localSearchType>
+            </localSearch>
+        </solver>
+    </solverBenchmark>
+</plannerBenchmark>
